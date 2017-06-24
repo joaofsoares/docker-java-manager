@@ -11,7 +11,9 @@ public class DockerManager {
      * @param dockerAddress dockerAddres format http://address:port
      */
     public DockerManager(String dockerAddress) {
+
         this.dockerAddress = dockerAddress;
+
     }
 
     /**
